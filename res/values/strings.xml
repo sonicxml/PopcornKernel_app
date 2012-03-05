@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, startingPoint!</string>
+    <string name="About">About:</string><string name="About_Info">For PopcornKernel (by sonicxml and jdkoreclipse)</string>
     <string name="app_name">PopcornKernel</string>
+    
+    <string name="tab1">CPU</string>
+    <string name="tab2">Tweaks</string>	
+    <string name="tab3">Update</string>
+    <string name="tab4">About</string>
 
 </resources>

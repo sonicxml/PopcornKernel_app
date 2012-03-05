@@ -6,7 +6,7 @@
 
     <uses-sdk android:minSdkVersion="15" />
 
-    <application
+    <application android:theme="@android:style/Theme.NoTitleBar">
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
@@ -16,6 +16,42 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CPUActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="sonicstudios.popcornkernel.CPUACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TweaksActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="sonicstudios.popcornkernel.TWEAKSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DownloadsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="sonicstudios.popcornkernel.DOWNLOADSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="sonicstudios.popcornkernel.ABOUTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
